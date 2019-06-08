@@ -1,18 +1,15 @@
-// template stings
-const title = 'Best reads of 2019';
-const author = 'Mario';
-const likes = 30;
+// type conversion
 
-// let result = 'The blog called ' + title + ' by ' + author + ' has ' + likes + ' likes';
+let score = '100';
 
-let result = `The blog called ${title} by ${author} has ${likes} likes`;
-console.log(result);
+// score = Number(score);
 
-// creating html templates
-let html =
-`<h2>${title}</h2>
-<p>By ${author}</p>
-<span>This blog has ${likes} likes</span>
-`;
+// console.log(score+1);
 
-console.log(html);
+// console.log(typeof score);
+
+// let result = String(50);
+
+let result = Boolean(' ');
+
+console.log(result, typeof result);
