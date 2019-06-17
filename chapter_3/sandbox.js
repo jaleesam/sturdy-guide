@@ -1,12 +1,12 @@
-// while loops
+// do while loops
 
 // while loops can't have a declaration for i inside it
 
-const names = ['shaun', 'mario', 'luigi'];
+// const names = ['shaun', 'mario', 'luigi'];
 
-let i = 0;
-while( i < names.length){
-    console.log(names[i]);
+let i = 3;
+
+do{
+    console.log('val of i is: ', i);
     i++;
-}
-
+} while( i < 5);
